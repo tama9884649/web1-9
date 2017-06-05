@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 }
 body{
-  background-image: url(../kuwagata.JPG), url(../IMG_004.jpg);
+  background-image: url(../kuwagata.JPG), url(../DSC_0058.JPG);
   background-repeat: no-repeat, no-repeat;
 background-color: lightgray;
 margin: 5px;
@@ -120,4 +120,21 @@ box-shadow: 0px 0px 10px gray; padding: 5px; margin:20px;}
   #63B3D2 50%,
   #BFE5F2 );
   transform: rotate(30deg);
+}
+p.transition{
+  margin: 10px;
+}
+p.transition a{
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 5px;
+  transition: 1s;
+}
+p.transition a:hover{
+background-color: gold;
+text-decoration: none;
+padding: 5px;
+color: black;
 }
