@@ -119,4 +119,5 @@ box-shadow: 0px 0px 10px gray; padding: 5px; margin:20px;}
   #008184 50%,
   #63B3D2 50%,
   #BFE5F2 );
+  transform: rotate(30deg);
 }
