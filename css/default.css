@@ -4,7 +4,9 @@ margin: 0;
 padding: 0;
 }
 body{
-background-color: lightgrey;
+  background-image: url(../kuwagata.JPG), url(../IMG_004.jpg);
+  background-repeat: no-repeat, no-repeat;
+background-color: lightgray;
 margin: 5px;
 }
 #text-shadow{
