@@ -67,4 +67,13 @@ box-shadow: 0px 0px 10px gray; padding: 5px; margin:20px;}
 .box-multi_shadow{box-shadow: 0px 0px 0px 3px lightgray inset,
 0px 0px 0px 4px black inset,
 2px 2px 10px 0px black; padding: 5px; margin:20px;}
-
+.box-sizing{
+  width: 120px;
+  padding: 10px;
+  border 10px;
+  margin: 10px;
+  border-style: solid;
+  border-style: black;
+  }
+.content-bpx {box-sizing:content-box;}
+.border-box {box-sizing:border-box;}
