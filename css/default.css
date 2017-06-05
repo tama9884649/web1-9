@@ -79,3 +79,26 @@ box-shadow: 0px 0px 10px gray; padding: 5px; margin:20px;}
   }
 .content-bpx {box-sizing:content-box;}
 .border-box {box-sizing:border-box;}
+#gradient{
+  font-size: 30px;
+}
+.two-gradient{
+  background-color: white;
+  background: linear-gradient(0deg,
+  orangered 0%,
+  white 50px);
+}
+.three-gradient{
+  background-color: white;
+  background: linear-gradient(90deg,
+    orangered 0%,
+    white 50px,
+    orange 100px);
+}
+.skew-gradient{
+    background-color: white;
+  background: linear-gradient(135deg,
+    orangered 0%,
+    white 50px,
+    orange 100px);
+}
